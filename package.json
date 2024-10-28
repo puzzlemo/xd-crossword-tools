@@ -39,17 +39,23 @@
     "printWidth": 140,
     "semi": false
   },
+  "resolutions": {
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "saxen": "10.0.0"
+  },
   "devDependencies": {
     "@swc/cli": "^0.1.55",
-    "@swc/core": "^1.2.135",
-    "@swc/jest": "^0.2.17",
+    "@swc/core": "^1.7.40",
+    "@swc/jest": "^0.2.36",
     "@types/jest": "^27.4.0",
     "@types/node": "^16.11.21",
     "jest": "^27.4.7",
     "jest-file-snapshot": "^0.5.0",
     "markdown-magic": "^2.6.0",
     "tsup": "^5.11.13",
-    "typescript": "^4.5.5",
+    "typescript": "^5.6.3",
     "@confuzzle/writepuz": "^1.2.3",
     "@confuzzle/readpuz": "^1.2.3"
   },
